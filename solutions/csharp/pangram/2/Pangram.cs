@@ -1,0 +1,4 @@
+public static class Pangram
+{
+    public static bool IsPangram(string input)=>"abcdefghijklmnopqrstuvwxyz".All(input.ToLower().Contains);
+}
